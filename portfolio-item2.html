@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UF-8">
+        <meta name = "viewport" content="width-device-width, initial-scale-1.0">
+        <title>Emanuel's Portfolio Website</title>
+        <link rel="stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="index.html#services" class="nav__link">My Focuses</a></li>
+                        <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Introduction part-->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Project: <strong>Blog Application (Android)</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Health App</p>
+            <img src="C:\Users\Eman1\Desktop\deployPersonalSite\img\BlogPic.png" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>This android application was worked on with a group of peers for a database design project. The application
+                utilizes Java and Sqlite as the database language. The application was created for users to create blogs,
+                comment in blogs, and keep track of interactions between users such as taking positive/negative comments,
+                display certain user activity(user's followers, users with positive comments, users who never posted...), and
+                others.
+            </p>
+            <!-- <img src="img/portfolio-detail.jpg" alt=""> -->
+            <p>My role in this project was to create the login page, the commenting features, and help with the design. This
+                project was primarily worked on with members collaborating to finish features quickly and more effecient. A 
+                link to the application demo is attached below, demo was presented by a fellow group member.
+            </p>
+        </div>
+
+        <div class="row">
+            <!-- <div class="column">
+              <img src="./img/MonkeyHome.png" alt="Homepage" style="width:100%" >
+            </div>
+            <div class="column">
+              <img src="./img/HomePageApp.png" alt="Tracker" style="width:100%">
+            </div> -->
+            <div class="column">
+                <a href="https://www.youtube.com/watch?v=CyzEK4_nX5o">
+                    <img src="./img/DemoImage.png" alt="Demo Link" style="width:100%">
+                </a>
+              </div>
+          </div>
+
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:emanaguirre59@gmail.com" class="footer-link">emanaguirre59@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/emanuel-aguirre-168356b7/">
+                        <i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Emanuel-9810">
+                        <i class="fab fa-github"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="./js/index.js"></script>
+    </body>
+</html>
